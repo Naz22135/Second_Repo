@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> CSS Selectors</title>
+
+    <!--* uses to margin-->
+    <!-- span class specific line or text change anything -->
+    <!-- div class whole div change color or anything -->
+
+    <style>
+        *{
+            margin:1%;
+        }
+        li,#Coxsbazar{
+            color: blue;
+            font-size:larger;
+        }
+        .taste{
+            color: maroon;
+            font-size: 26px;
+        }
+        #jack,.green{
+            color: darkgreen;
+            font-style: italic;
+            text-align: center;
+            font-size:30px;
+            background-color:aliceblue;
+        }
+        input[type="email"]{
+            font-size: 26px;
+          color:red;
+        }
+        .rivers{
+            background-color: chartreuse;
+        }
+        .lorem{
+            background-color: crimson;
+            font-size: 26px;
+        }
+        
+        </style>
+
+</head>
+<body>
+    <h2><b>Description of Bangladesh</b></h2>
+    <p>bd is a small country</p>
+    <p>it has many resources</p>
+    <P>has also <span class="rivers">rivers</span></P>
+    <p id="Coxsbazar">longest sea beach</p>
+    <p>sports are developing day by day</p>
+    <h3><b>Fruits of BD</b></h3>
+    <ol>
+      <li>Mango</li>
+      <li>Lichi</li>
+      <li>Banana</li>
+      <li class="taste"><b>Banana</b></li>
+      <li>Banana</li>
+      <li>Guava</li>
+      <li id="jack"class="green">Jack fruit</li>
+    </ol>
+     <form action="">
+        <input type="password"><br>
+        <input type="email">
+     </form>
+
+     <div class="lorem">
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam fuga exercitationem maxime eligendi vel laboriosam, qui odit ab voluptatum suscipit iste necessitatibus minima rem dolore nobis perspiciatis quia. Tenetur, inventore?
+        </p>
+     </div>
+
+</body>
+</html>
